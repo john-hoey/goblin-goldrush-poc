@@ -1,0 +1,58 @@
+.grid {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  width: 180px;
+  background-image: url("assets/background.png");
+  /* z-index: -1; */
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.ending-block {
+  background-image: url("assets/treasure.png");
+  background-size: contain;
+  /* z-index: 1; */
+}
+
+/* .starting-block {
+  background-color: blue;
+} */
+
+.s1 {
+  background-image: url("assets/skele.png");
+  /* z-index: 1; */
+  background-size: contain;
+}
+
+.s2,
+.s3 {
+  background-image: url("assets/background.png");
+  /* z-index: 1; */
+}
+
+.r1,
+.r2,
+.r3 {
+  background-image: url("assets/rock.png");
+  background-size: contain;
+  /* z-index: 1; */
+}
+
+.r4,
+.r5 {
+  background-image: url("assets/lava.png");
+  background-size: contain;
+  /* z-index: 1; */
+}
+
+.goblin {
+  /* background-color: transparent; */
+  background-image: url("assets/goblin.png");
+  background-size: contain;
+  /* z-index: 2; */
+}
